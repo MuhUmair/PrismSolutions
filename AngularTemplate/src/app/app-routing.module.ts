@@ -25,7 +25,7 @@ import { ContactusComponent } from './components/pages/contactus/contactus.compo
 const routes: Routes = [
 
 {path: '', component: Homepage2Component},
-{path: 'homepage2', component: Homepage1Component},
+{path: 'homepage2', component: Homepage2Component},
 {path: 'homepage3', component: Homepage3Component},
 {path: 'about-us', component: AboutusComponent},
 {path: 'team', component: TeamComponent},
