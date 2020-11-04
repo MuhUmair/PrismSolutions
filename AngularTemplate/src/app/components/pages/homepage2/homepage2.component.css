@@ -1,0 +1,7 @@
+.parag p {
+    font-size: 13px;
+}
+
+.parag .contextMaxWidth {
+    max-width:20%;
+}
