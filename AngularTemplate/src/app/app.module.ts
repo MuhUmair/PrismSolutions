@@ -32,6 +32,7 @@ import { PortfolioDetailComponent } from './components/pages/portfolio-detail/po
 import { ShopComponent } from './components/pages/shop/shop.component';
 import { ShopDetailComponent } from './components/pages/shop-detail/shop-detail.component';
 import { ContactusComponent } from './components/pages/contactus/contactus.component';
+import { IntegrationComponent } from './components/pages/integrations/integrations.component';
 
 
 @NgModule({
@@ -66,6 +67,7 @@ import { ContactusComponent } from './components/pages/contactus/contactus.compo
     ShopComponent,
     ShopDetailComponent,
     ContactusComponent,
+    IntegrationComponent,
     
   ],
   imports: [

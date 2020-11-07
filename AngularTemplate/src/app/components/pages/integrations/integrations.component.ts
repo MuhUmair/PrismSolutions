@@ -1,9 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-service-detail',
-  templateUrl: './service-detail.component.html',
-  styleUrls: ['./service-detail.component.css']
+  selector: 'app-integrations',
+  templateUrl: './integrations.component.html',
+  styleUrls: ['./integrations.component.css']
 })
 export class IntegrationComponent implements OnInit {
 

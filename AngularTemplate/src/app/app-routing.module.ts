@@ -21,6 +21,7 @@ import { PortfolioDetailComponent } from './components/pages/portfolio-detail/po
 import { ShopComponent } from './components/pages/shop/shop.component';
 import { ShopDetailComponent } from './components/pages/shop-detail/shop-detail.component';
 import { ContactusComponent } from './components/pages/contactus/contactus.component';
+import { IntegrationComponent } from './components/pages/integrations/integrations.component';
 
 
 const routes: Routes = [
@@ -45,6 +46,8 @@ const routes: Routes = [
 {path: 'shop', component: ShopComponent},
 {path: 'shop-detail', component: ShopDetailComponent},
 {path: 'contact-us', component: ContactusComponent},
+{path: 'integration', component: IntegrationComponent},
+
 
 
 ];
