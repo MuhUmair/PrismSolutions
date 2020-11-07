@@ -1,0 +1,21 @@
+.missionMargin {
+    margin-left:-150px;
+    margin-right:-150px;
+    
+}
+
+.missionMargin ul {
+    list-style-type: disc;
+}
+
+.gapTop{
+    Padding-top: 0px;
+}
+
+.job-lists {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
