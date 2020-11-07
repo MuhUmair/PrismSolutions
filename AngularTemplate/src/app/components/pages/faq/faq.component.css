@@ -1,0 +1,8 @@
+.section2 {
+    padding-top: 0px;
+}
+
+.section2 li {
+    list-style-type: decimal;
+    list-style-position: inside;
+}

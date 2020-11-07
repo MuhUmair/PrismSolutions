@@ -33,6 +33,7 @@ import { ShopComponent } from './components/pages/shop/shop.component';
 import { ShopDetailComponent } from './components/pages/shop-detail/shop-detail.component';
 import { ContactusComponent } from './components/pages/contactus/contactus.component';
 
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -64,7 +65,8 @@ import { ContactusComponent } from './components/pages/contactus/contactus.compo
     PortfolioDetailComponent,
     ShopComponent,
     ShopDetailComponent,
-    ContactusComponent
+    ContactusComponent,
+    
   ],
   imports: [
     BrowserModule,

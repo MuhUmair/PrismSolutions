@@ -22,6 +22,7 @@ import { ShopComponent } from './components/pages/shop/shop.component';
 import { ShopDetailComponent } from './components/pages/shop-detail/shop-detail.component';
 import { ContactusComponent } from './components/pages/contactus/contactus.component';
 
+
 const routes: Routes = [
 
 {path: '', component: Homepage2Component},
@@ -44,6 +45,7 @@ const routes: Routes = [
 {path: 'shop', component: ShopComponent},
 {path: 'shop-detail', component: ShopDetailComponent},
 {path: 'contact-us', component: ContactusComponent},
+
 
 ];
 
