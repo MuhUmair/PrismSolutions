@@ -5,3 +5,17 @@
 .parag .contextMaxWidth {
     max-width:20%;
 }
+
+.video-poster-two {
+    bottom: -56px;
+}
+
+.paddingPlusRadius {
+    padding-bottom: 50px;
+    border-radius: 20px;
+}
+
+.serviceTiles:hover {
+    border: 1px solid #ff4a17;
+    box-shadow: 5px 5px 5px #ff4a17;
+}
