@@ -1,0 +1,12 @@
+.socal-logos i {
+    border: 1px solid #ff4a17;
+    margin: 8px;
+    border-radius: 50%;
+    padding: 20px;
+}
+
+.socal-logos i:hover {
+    background-color: #ff4a17;
+    color:white;
+
+}
