@@ -34,7 +34,8 @@ import { ShopDetailComponent } from './components/pages/shop-detail/shop-detail.
 import { ContactusComponent } from './components/pages/contactus/contactus.component';
 import { IntegrationComponent } from './components/pages/integrations/integrations.component';
 import { MigrationsComponent } from './components/pages/migrations/migrations.component';
-
+import { DocumentsComponent } from './components/pages/documents/documents.component';
+//import { DocumentsComponent } from './components/pages/documents/documents.component';
 
 @NgModule({
   declarations: [
@@ -70,6 +71,8 @@ import { MigrationsComponent } from './components/pages/migrations/migrations.co
     ContactusComponent,
     IntegrationComponent,
     MigrationsComponent,
+    DocumentsComponent,
+    DocumentsComponent,
     
   ],
   imports: [

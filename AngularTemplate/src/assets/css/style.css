@@ -645,6 +645,10 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
   padding-left: 0px;
 }
 
+.pt-0 {
+  padding-top:0px;
+}
+
 /*=======  Animations  =======*/
 @-webkit-keyframes sticky {
   0% {
