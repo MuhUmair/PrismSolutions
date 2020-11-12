@@ -2675,7 +2675,7 @@ header.header-three .header-nav::before {
 .service-section.shape-style-two::before {
   position: absolute;
   left: 90px;
-  top: 200px;
+  top: 150px;
   content: '';
   z-index: -1;
   background-image: url(../img/icons/star.png);
@@ -8618,4 +8618,83 @@ footer.grey-bg-footer .footer-copyright .back-to-top:hover {
 .service-boxes .service-box-two1:hover .service-link {
   color: #fff;
   background-color: #ff4a17;
+}
+
+.hero {
+  position: relative;
+  line-height: 1.5;
+  text-align: left;
+  font-size: 16px;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  box-sizing: border-box;
+  background-color: #ff4a17;
+  color: #fff;
+  background-image: url(../img/clients/meeting.jpg);
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  background-size: 46% 100%;
+}
+
+.row1{
+      display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.hero__main {
+    line-height: 1.5;
+    text-align: left;
+    font-size: 16px;
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    color: #fff;
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    flex-direction: row;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    height: inherit !important;
+}
+
+.hero__textbox {
+  width: 570px;
+  text-align: left;
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center;
+  padding-top: 0;
+  padding-left: 15px;
+}
+
+.hero h1 {
+  margin-top: 0;
+  margin-bottom: 0.6666666666666667em;
+  text-align: left;
+}
+
+.header-b .hero .subtitle {
+  margin-bottom: 50px;
+}
+
+.subtitle {
+  font-size: 18px;
+  line-height: 1.444444444444444em;
+  font-weight: 400;
+}
+
+.img {
+  vertical-align: middle;
+  border-style: none;
 }
