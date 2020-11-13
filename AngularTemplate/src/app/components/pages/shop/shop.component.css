@@ -1,0 +1,24 @@
+.testominalBox {
+    padding: 20px;
+    margin:10px;
+    color: #ff4a17;
+}
+
+.testominalBox p {
+    display:none;
+    margin-top:10px;
+}
+
+.testominalBox:hover p {
+    display:block;
+}
+
+.testominalBox:hover {
+    background-color:#ff4a17;
+    color: white;
+    border-radius: 5%;
+}
+
+.testominalBox img:hover {
+    transform: scale(0.5);
+}
