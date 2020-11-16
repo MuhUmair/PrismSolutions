@@ -2,6 +2,8 @@
     padding: 20px;
     margin:10px;
     color: #ff4a17;
+    height:200px;
+    
 }
 
 .testominalBox p {
@@ -17,8 +19,10 @@
     background-color:#ff4a17;
     color: white;
     border-radius: 5%;
+    transform: scale(0.7);
 }
+.contact-form1 {
+    margin-bottom: 0px;
+}
+    
 
-.testominalBox img:hover {
-    transform: scale(0.5);
-}
