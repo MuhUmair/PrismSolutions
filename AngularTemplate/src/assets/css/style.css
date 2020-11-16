@@ -594,6 +594,10 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 }
 
 /*=======  Utilitis =======*/
+.centers {
+  text-align:center;
+}
+
 .mt-30 {
   margin-top: 30px;
 }
