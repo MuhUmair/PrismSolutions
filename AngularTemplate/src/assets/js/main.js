@@ -399,32 +399,38 @@
 			autoplay: true,
 			autoplaySpeed: 5000,
 			speed: 500,
-			arrows: false,
+			arrows: true,
 			fade: false,
 			dots: false,
 			swipe: true,
+			nextArrow: '<button class="slick-arrow next-arrow"><i class="fal fa-long-arrow-right"></i></button>',
+			prevArrow: '<button class="slick-arrow prev-arrow"><i class="fal fa-long-arrow-left"></i></button>',
 			responsive: [{
 					breakpoint: 991,
 					settings: {
 						slidesToShow: 4,
+					
 					},
 				},
 				{
 					breakpoint: 767,
 					settings: {
 						slidesToShow: 3,
+						
 					},
 				},
 				{
 					breakpoint: 576,
 					settings: {
 						slidesToShow: 2,
+						
 					},
 				},
 				{
 					breakpoint: 400,
 					settings: {
 						slidesToShow: 1,
+						
 					},
 				},
 			],
