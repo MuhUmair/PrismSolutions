@@ -44,7 +44,7 @@ const routes: Routes = [
 {path: 'portfolio-one', component: Portfolio1Component},
 {path: 'portfolio-two', component: Portfolio2Component},
 {path: 'portfolio-detail', component: PortfolioDetailComponent},
-{path: 'shop', component: ShopComponent},
+{path: 'clients', component: ShopComponent},
 {path: 'shop-detail', component: ShopDetailComponent},
 {path: 'contact-us', component: ContactusComponent},
 {path: 'integration', component: IntegrationComponent},
