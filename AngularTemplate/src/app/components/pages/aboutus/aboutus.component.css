@@ -1,8 +1,3 @@
-.missionMargin {
-    margin-left:-150px;
-    margin-right:-150px;
-    
-}
 
 .missionMargin ul {
     list-style-type: disc;
@@ -11,6 +6,7 @@
 .gapTop{
     Padding-top: 0px;
 }
+
 
 .job-lists {
     display: -ms-grid;
