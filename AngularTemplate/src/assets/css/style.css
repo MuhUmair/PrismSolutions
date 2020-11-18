@@ -6601,7 +6601,7 @@ header.header-three .header-nav::before {
 
 .contact-section.contact-page .contact-form {
   padding: 70px 0;
-  margin-bottom: -170px;
+  margin-bottom: 0px;
   position: relative;
 }
 
