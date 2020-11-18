@@ -667,6 +667,54 @@
 		}
 	}
 
+	// ===== 22. Client Testominal Slider
+	function clientSlider1() {
+		var slides = $('#clientSlider1');
+		slides.not('.slick-initialized').slick({
+			infinite: true,
+			slidesToShow: 3,
+			slidesToScroll: 3,
+			autoplay: false,
+			autoplaySpeed: 5000,
+			speed: 500,
+			arrows: true,
+			fade: false,
+			dots: false,
+			swipe: true,
+			nextArrow: '<button class="slick-arrow next-arrow"><i class="fal fa-long-arrow-right"></i></button>',
+			prevArrow: '<button class="slick-arrow prev-arrow"><i class="fal fa-long-arrow-left"></i></button>',
+			responsive: [{
+					breakpoint: 991,
+					settings: {
+						slidesToShow: 4,
+					
+					},
+				},
+				{
+					breakpoint: 767,
+					settings: {
+						slidesToShow: 3,
+						
+					},
+				},
+				{
+					breakpoint: 576,
+					settings: {
+						slidesToShow: 2,
+						
+					},
+				},
+				{
+					breakpoint: 400,
+					settings: {
+						slidesToShow: 1,
+						
+					},
+				},
+			],
+		});
+	}
+
 	/*---------------------
 	=== DOCUMENT READY  ===
 	----------------------*/
@@ -680,6 +728,7 @@
 		teamSlider()
 		testimonialSlider()
 		clientSlider()
+		clientSlider1()
 		easypieChart()
 		latestPostSlider()
 		factIsotope()
