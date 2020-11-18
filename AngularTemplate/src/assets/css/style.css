@@ -6769,12 +6769,13 @@ header.header-three .header-nav::before {
 }
 
 .job-lists .single-job:hover {
-  background-color: #ff4a17;
+  border: 1px solid #ff4a17;
+    box-shadow: 5px 5px 5px #ff4a17;
 }
 
 .job-lists .single-job:hover .title, .job-lists .single-job:hover,
 .job-lists .single-job:hover .job-time {
-  color: #fff;
+  /*color: #fff;*/
 }
 
 .job-lists .single-job:hover .apply-btn {
@@ -9093,3 +9094,4 @@ footer.grey-bg-footer .footer-copyright .back-to-top:hover {
     right: -100px;
   }
 }
+

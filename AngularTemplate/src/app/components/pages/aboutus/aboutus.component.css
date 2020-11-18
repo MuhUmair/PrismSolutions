@@ -7,6 +7,10 @@
     Padding-top: 0px;
 }
 
+..serviceTiles:hover {
+    border: 1px solid #ff4a17;
+    box-shadow: 5px 5px 5px #ff4a17;
+}
 
 .job-lists {
     display: -ms-grid;
