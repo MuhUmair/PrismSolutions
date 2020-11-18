@@ -24,6 +24,7 @@ import { ContactusComponent } from './components/pages/contactus/contactus.compo
 import { IntegrationComponent } from './components/pages/integrations/integrations.component';
 import { MigrationsComponent } from './components/pages/migrations/migrations.component';
 import { DocumentsComponent } from './components/pages/documents/documents.component';
+import { CasestudiesComponent } from './components/pages/casestudies/casestudies.component';
 
 const routes: Routes = [
 
@@ -50,6 +51,7 @@ const routes: Routes = [
 {path: 'integration', component: IntegrationComponent},
 {path: 'migration', component: MigrationsComponent},
 {path: 'document-automate', component: DocumentsComponent},
+{path: 'case-study', component: CasestudiesComponent},
 
 
 
