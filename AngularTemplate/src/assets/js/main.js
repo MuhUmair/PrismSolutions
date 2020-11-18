@@ -674,7 +674,7 @@
 			infinite: true,
 			slidesToShow: 3,
 			slidesToScroll: 3,
-			autoplay: false,
+			autoplay: true,
 			autoplaySpeed: 5000,
 			speed: 500,
 			arrows: true,
