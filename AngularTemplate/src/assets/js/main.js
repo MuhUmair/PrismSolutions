@@ -715,6 +715,22 @@
 		});
 	}
 
+	function myFunction() {
+		var dots = $("dots");
+		var moreText = $("more");
+		var btnText = $("myBtn");
+	  
+		if (dots.style.display === "none") {
+		  dots.style.display = "inline";
+		  btnText.innerHTML = "Read more"; 
+		  moreText.style.display = "none";
+		} else {
+		  dots.style.display = "none";
+		  btnText.innerHTML = "Read less"; 
+		  moreText.style.display = "inline";
+		}
+	  }
+
 	/*---------------------
 	=== DOCUMENT READY  ===
 	----------------------*/
@@ -739,6 +755,7 @@
 		realatedProSLider()
 		quantityIncrement()
 		gtToTop()
+		myFunction()
 	});
 
 	/*--------------------

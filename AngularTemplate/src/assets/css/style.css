@@ -9099,3 +9099,6 @@ footer.grey-bg-footer .footer-copyright .back-to-top:hover {
   }
 }
 
+.more {
+    display: none;
+}
