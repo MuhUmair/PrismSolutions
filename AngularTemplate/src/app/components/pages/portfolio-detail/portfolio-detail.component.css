@@ -1,0 +1,16 @@
+.project-details ol {
+    list-style-type: decimal;
+    list-style-position: inside;
+}
+
+.breadcrumb-section h1{
+    color: white;
+    font-size: 60px;
+}
+
+.breadcrumb-section p{
+    color: white;
+    font-size:25px;
+}
+
+
