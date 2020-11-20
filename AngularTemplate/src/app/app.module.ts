@@ -36,6 +36,12 @@ import { IntegrationComponent } from './components/pages/integrations/integratio
 import { MigrationsComponent } from './components/pages/migrations/migrations.component';
 import { DocumentsComponent } from './components/pages/documents/documents.component';
 import { CasestudiesComponent } from './components/pages/casestudies/casestudies.component';
+import { Portfolio3Component } from './components/pages/portfolio3/portfolio3.component';
+import { Portfolio4Component } from './components/pages/portfolio4/portfolio4.component';
+import { Portfolio5Component } from './components/pages/portfolio5/portfolio5.component';
+import { Portfolio6Component } from './components/pages/portfolio6/portfolio6.component';
+import { Portfolio7Component } from './components/pages/portfolio7/portfolio7.component';
+import { Portfolio8Component } from './components/pages/portfolio8/portfolio8.component';
 
 
 @NgModule({
@@ -76,6 +82,12 @@ import { CasestudiesComponent } from './components/pages/casestudies/casestudies
     DocumentsComponent,
     CasestudiesComponent,
     CasestudiesComponent,
+    Portfolio3Component,
+    Portfolio4Component,
+    Portfolio5Component,
+    Portfolio6Component,
+    Portfolio7Component,
+    Portfolio8Component,
     
   ],
   imports: [

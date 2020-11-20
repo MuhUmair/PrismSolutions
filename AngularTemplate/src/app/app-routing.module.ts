@@ -25,6 +25,9 @@ import { IntegrationComponent } from './components/pages/integrations/integratio
 import { MigrationsComponent } from './components/pages/migrations/migrations.component';
 import { DocumentsComponent } from './components/pages/documents/documents.component';
 import { CasestudiesComponent } from './components/pages/casestudies/casestudies.component';
+import { Portfolio3Component } from './components/pages/portfolio3/portfolio3.component';
+import { Portfolio4Component } from './components/pages/portfolio4/portfolio4.component';
+
 
 const routes: Routes = [
 
@@ -43,7 +46,7 @@ const routes: Routes = [
 {path: 'implementation', component: BlogGridComponent},
 {path: 'blog-detail', component: BlogDetailComponent},
 {path: 'portfolio', component: Portfolio1Component},
-{path: 'portfolio-two', component: Portfolio2Component},
+{path: 'sales-cloud', component: Portfolio2Component},
 {path: 'salesforce-communitites', component: PortfolioDetailComponent},
 {path: 'clients', component: ShopComponent},
 {path: 'shop-detail', component: ShopDetailComponent},
@@ -52,6 +55,8 @@ const routes: Routes = [
 {path: 'migration', component: MigrationsComponent},
 {path: 'document-automate', component: DocumentsComponent},
 {path: 'case-study', component: CasestudiesComponent},
+{path: 'marketing-cloud', component: Portfolio3Component},
+{path: 'salesforce-integration', component: Portfolio4Component},
 
 
 
