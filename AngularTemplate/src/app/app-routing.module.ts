@@ -27,6 +27,8 @@ import { DocumentsComponent } from './components/pages/documents/documents.compo
 import { CasestudiesComponent } from './components/pages/casestudies/casestudies.component';
 import { Portfolio3Component } from './components/pages/portfolio3/portfolio3.component';
 import { Portfolio4Component } from './components/pages/portfolio4/portfolio4.component';
+import { Portfolio5Component } from './components/pages/portfolio5/portfolio5.component';
+import { Portfolio6Component } from './components/pages/portfolio6/portfolio6.component';
 
 
 const routes: Routes = [
@@ -42,7 +44,7 @@ const routes: Routes = [
 {path: 'service-one', component: Service1Component},
 {path: 'service-two', component: Service2Component},
 {path: 'resource-center', component: ServiceDetailComponent},
-{path: 'project-development', component: BlogStandardComponent},
+{path: 'project-management', component: BlogStandardComponent},
 {path: 'implementation', component: BlogGridComponent},
 {path: 'blog-detail', component: BlogDetailComponent},
 {path: 'portfolio', component: Portfolio1Component},
@@ -57,6 +59,8 @@ const routes: Routes = [
 {path: 'case-study', component: CasestudiesComponent},
 {path: 'marketing-cloud', component: Portfolio3Component},
 {path: 'salesforce-integration', component: Portfolio4Component},
+{path: 'salesforce-appexchange', component: Portfolio5Component},
+{path: 'salesforce-consulting', component: Portfolio6Component},
 
 
 
