@@ -1,4 +1,10 @@
+.section2 .lists li {
+    
+    
+    margin-left: 31px;
+}
+
 .section2 li {
-    list-style-position: inside;
     list-style-type: disc;
+    list-style-position: inside;
 }

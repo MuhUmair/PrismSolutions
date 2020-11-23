@@ -9073,7 +9073,7 @@ footer.grey-bg-footer .footer-copyright .back-to-top:hover {
 .advanced-tab1 .tab-content .tab-text-block.with-left-circle::before, .advanced-tab1 .tab-content .tab-text-block.with-right-circle::before {
   position: absolute;
   left: -150px;
-  bottom: -130px;
+  bottom: -230px;
   height: 300px;
   width: 300px;
   background-color: transparent;
@@ -9132,4 +9132,8 @@ footer.grey-bg-footer .footer-copyright .back-to-top:hover {
 
   text-align: center;
   
+}
+
+.flex-display{
+  display:flex;
 }
