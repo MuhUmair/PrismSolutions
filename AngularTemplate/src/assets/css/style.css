@@ -598,6 +598,10 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
   text-align:center;
 }
 
+.mt-10 {
+  margin-top: 10px;
+}
+
 .mt-30 {
   margin-top: 30px;
 }
@@ -668,6 +672,10 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
 
 .mt-15-inverse {
   margin-top: -13px;
+}
+
+.mr-10 {
+  margin-right: 10px;
 }
 
 .pl-0 {
