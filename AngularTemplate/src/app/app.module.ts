@@ -42,6 +42,7 @@ import { Portfolio5Component } from './components/pages/portfolio5/portfolio5.co
 import { Portfolio6Component } from './components/pages/portfolio6/portfolio6.component';
 import { Portfolio7Component } from './components/pages/portfolio7/portfolio7.component';
 import { Portfolio8Component } from './components/pages/portfolio8/portfolio8.component';
+import { CasestudyComponent } from './components/pages/casestudy/casestudy.component';
 
 
 @NgModule({
@@ -88,6 +89,7 @@ import { Portfolio8Component } from './components/pages/portfolio8/portfolio8.co
     Portfolio6Component,
     Portfolio7Component,
     Portfolio8Component,
+    CasestudyComponent,
     
   ],
   imports: [

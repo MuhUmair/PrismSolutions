@@ -30,7 +30,7 @@
 .testominalBox:hover  {
     transform: translate(0, -5px);
     border: 1px solid #ff4a17;
-    box-shadow: 5px 5px 5px #ff4a17;
+    
 }
 
 .testominalBox:hover img {
@@ -58,26 +58,20 @@
 
 .case-study1:hover p, .case-study1:hover a, .case-study3:hover p, .case-study3:hover a {
     display: block;
+    margin-top:5px;
 }
 
-.case-study1:haover{
-    transform: scale(0.7);
-    transition: 1;
-    padding-bottom: 0px;
-    border: 1px solid #ff4a17;
-    box-shadow: 5px 5px 5px #ff4a17;
-    padding-top:0px;
-}
+
 
 .case-study1:hover, .case-study3:hover{
     
     border: 1px solid #ff4a17;
-    box-shadow: 5px 5px 5px #ff4a17;
+    
     padding-top:0px;
 }
 
 .case-study1 .imgae-div:hover {
-    transform: translate(0, -120px);
+    transform: translate(0, -80px);
     transition: 0.3s;
 }
 
@@ -87,7 +81,7 @@
 }
 
 .case-study1 .imgae-div2:hover img {
-    transform: scale(0.7);
+    transform: scale(0.5);
     transition: 1;
 }
 
