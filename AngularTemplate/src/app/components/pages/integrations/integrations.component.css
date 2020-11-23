@@ -1,4 +1,15 @@
-.section2 li {
+.faq-section li {
     list-style-position: inside;
     list-style-type: disc;
+    text-indent: -1.5em;
+}
+
+.faq-section li {
+    margin-left: 60px;
+}
+
+
+.breadcrumb-section h1{
+    color: white;
+    font-size: 60px;
 }

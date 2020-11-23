@@ -1,8 +1,16 @@
-.breadcrumb-text p {
+.breadcrumb-section h1{
     color: white;
+    font-size: 60px;
+}
+
+.breadcrumb-section p{
+    color: white;
+    font-size:25px;
 }
 
 .working-process-section ul {
     list-style-type: disc;
     list-style-position: inside;
+    margin-left: 60px;
+    text-indent: -1.5em;
 }

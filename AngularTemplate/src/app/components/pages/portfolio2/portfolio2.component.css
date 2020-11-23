@@ -1,6 +1,8 @@
 .project-details ol {
     list-style-type: decimal;
     list-style-position: inside;
+    margin-left: 60px;
+    text-indent: -1em;
 }
 
 .breadcrumb-section h1{

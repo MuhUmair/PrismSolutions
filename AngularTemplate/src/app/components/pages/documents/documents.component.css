@@ -1,4 +1,10 @@
 .section-gap ul{
     list-style-type: disc;
     list-style-position: inside;
+    margin-left: 31px;
+}
+
+.breadcrumb-section h1{
+    color: white;
+    font-size: 60px;
 }

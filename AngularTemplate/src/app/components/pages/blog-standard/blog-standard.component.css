@@ -1,5 +1,11 @@
-.breadcrumb-text p {
+.breadcrumb-section h1{
     color: white;
+    font-size: 60px;
+}
+
+.breadcrumb-section p{
+    color: white;
+    font-size:25px;
 }
 
 .working-process-section ul {

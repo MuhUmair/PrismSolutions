@@ -1,11 +1,23 @@
-.section2 .lists li {
+.section2 .lists  {
     
-    
-    margin-left: 31px;
+    margin-left: 60px;
 }
+
+.section2 .list2  {
+    
+    margin-left: 30px;
+}
+
+
+
 
 .section2 li {
     list-style-type: disc;
     list-style-position: inside;
     text-indent: -1.5em;
+}
+
+.breadcrumb-section h1{
+    color: white;
+    font-size: 60px;
 }
