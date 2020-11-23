@@ -1,31 +1,46 @@
 .testominalBox {
     padding: 20px;
     margin:10px;
-    color: #ff4a17;
     height:200px;
-    
+}
+
+.testominalBox {
+    min-height: 200px;
 }
 
 .testominalBox p {
     display:none;
-    margin-top:10px;
+    
+}
+
+.imgae-div {
+    padding: 163px 0px;
+}
+
+.imgae-div2 {
+    padding: 64px 0px;
 }
 
 .testominalBox:hover p {
     display:block;
+    color: #ff4a17;
+    
 }
 
-.testominalBox:hover {
-    background-color:#ff4a17;
-    color: white;
-    border-radius: 5%;
-    transform: scale(0.7);
+.testominalBox:hover  {
+    transform: translate(0, -5px);
+    border: 1px solid #ff4a17;
+    box-shadow: 5px 5px 5px #ff4a17;
 }
+
+.testominalBox:hover img {
+    transform: scale(0.7);
+    transition: 1;
+}
+
 .contact-form1 {
     margin-bottom: 0px;
 }
-    
-
 
 .breadcrumb-section h1{
     color: white;
@@ -37,4 +52,45 @@
     font-size:25px;
 }
 
+.case-study1 p, .case-study1 a {
+    display:none;
+}
 
+.case-study1:hover p, .case-study1:hover a, .case-study3:hover p, .case-study3:hover a {
+    display: block;
+}
+
+.case-study1:haover{
+    transform: scale(0.7);
+    transition: 1;
+    padding-bottom: 0px;
+    border: 1px solid #ff4a17;
+    box-shadow: 5px 5px 5px #ff4a17;
+    padding-top:0px;
+}
+
+.case-study1:hover, .case-study3:hover{
+    
+    border: 1px solid #ff4a17;
+    box-shadow: 5px 5px 5px #ff4a17;
+    padding-top:0px;
+}
+
+.case-study1 .imgae-div:hover {
+    transform: translate(0, -120px);
+    transition: 0.3s;
+}
+
+.case-study1 .imgae-div2:hover {
+    transform: translate(0, -65px);
+    transition: 0.3s;
+}
+
+.case-study1 .imgae-div2:hover img {
+    transform: scale(0.7);
+    transition: 1;
+}
+
+.case-study3 p, .case-study3 a {
+    display:none;
+}
