@@ -598,6 +598,10 @@ div#preloader .loader-cubes .loader-cube .loader-cube3::before {
   text-align:center;
 }
 
+.icons-fa {
+  color:#ff4a17;
+}
+
 .mt-10 {
   margin-top: 10px;
 }

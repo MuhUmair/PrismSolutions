@@ -9,3 +9,10 @@
 }
 
 
+.project-details li {
+    list-style-position: inside;
+    list-style-type: disc;
+    
+    margin-left:31px;
+}
+
