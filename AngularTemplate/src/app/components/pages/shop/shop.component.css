@@ -35,7 +35,7 @@
 
 .testominalBox:hover img {
     transform: scale(0.7);
-    transition: 1;
+    transition: 0.3;
 }
 
 .contact-form1 {
@@ -82,7 +82,7 @@
 
 .case-study1 .imgae-div2:hover img {
     transform: scale(0.5);
-    transition: 1;
+    transition: 0.3;
 }
 
 .case-study3 p, .case-study3 a {
