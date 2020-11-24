@@ -19,3 +19,8 @@
     border: 1px solid #ff4a17;
     box-shadow: 0px 0px 5px #ff4a17;
 }
+
+.bg-color {
+    background: rgba(119, 119, 119, 0.5);
+    padding:10px;
+}

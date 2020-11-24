@@ -9,11 +9,14 @@
     text-indent: -1em;
 }
 
-
-
 .breadcrumb-section h1{
     color: white;
     font-size: 60px;
+}
+
+.bg-color {
+    background: rgba(119, 119, 119, 0.5);
+    padding:10px;
 }
 
 
