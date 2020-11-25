@@ -8422,23 +8422,27 @@ footer .widget.contact-widget .contact-infos li {
 }
 
 footer .widget.contact-widget .contact-infos i {
-  margin-right: 10px;
+  margin-right: 1px;
   color: #ff4a17;
+  text-indent: -1em;
+
 }
 
 @media (max-width: 1199px) {
   footer .widget.contact-widget .contact-infos i {
-    margin-right: 5px;
+    margin-right: 0px;
   }
 }
 
 footer .widget.insta-feed-widget {
-  padding-left: 45px;
+  padding-left: 10px;
+  
 }
 
 @media (max-width: 991px) {
   footer .widget.insta-feed-widget {
     padding-left: 0;
+
   }
 }
 

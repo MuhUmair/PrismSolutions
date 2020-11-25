@@ -42,7 +42,7 @@ const routes: Routes = [
 {path: 'career', component: CareerComponent},
 {path: 'consulting-services', component: FaqComponent},
 {path: 'service-one', component: Service1Component},
-{path: 'service-two', component: Service2Component},
+{path: 'salesforce-services', component: Service2Component},
 {path: 'resource-center', component: ServiceDetailComponent},
 {path: 'project-management', component: BlogStandardComponent},
 {path: 'implementation', component: BlogGridComponent},
