@@ -1,11 +1,17 @@
 .faq-section li {
     list-style-position: inside;
     list-style-type: disc;
-    text-indent: -1.5em;
+    text-indent: -1.3em;
 }
 
 .faq-section li {
     margin-left: 60px;
+}
+
+.faq-section ol li {
+    
+    list-style-type: upper-alpha;
+    
 }
 
 

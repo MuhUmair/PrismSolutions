@@ -11,6 +11,8 @@
 .working-process-section ul {
     list-style-type: disc;
     list-style-position: inside;
+    text-indent: -1.5em;
+    margin-left: 60px;
 }
 
 #more {
