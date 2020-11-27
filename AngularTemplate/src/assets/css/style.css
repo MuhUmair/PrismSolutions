@@ -922,7 +922,7 @@ header .header-nav .nav-container .menu-items ul li .submenu {
   width: 200px;
   background-color: #fff;
   opacity: 0;
-  /*visibility: hidden;*/
+  visibility: hidden;
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
   z-index: 99;

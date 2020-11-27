@@ -6,6 +6,21 @@
     display:none;
 }*/
 
-.header-nav .service-main {
-    display:flex;
+.menu-items .icon-align {
+   margin-left: 40px;
+}
+
+.menu-items .icon-align-right {
+    
+    visibility:hidden;
+}
+
+.menu-items .show-menu:hover .icon-align {
+    display:none;
+}
+
+.menu-items .show-menu:hover .icon-align-right {
+    visibility:visible;
+    margin-left: 40px;
+
 }
