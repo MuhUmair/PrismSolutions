@@ -4,8 +4,8 @@
 
 /*.header-nav .service-menu {
     display:none;
-}
+}*/
 
-.header-nav .service-main:hover .service-menu {
-    display:list-item;
-} */
+.header-nav .service-main {
+    display:flex;
+}
