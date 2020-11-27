@@ -29,6 +29,7 @@ import { Portfolio3Component } from './components/pages/portfolio3/portfolio3.co
 import { Portfolio4Component } from './components/pages/portfolio4/portfolio4.component';
 import { Portfolio5Component } from './components/pages/portfolio5/portfolio5.component';
 import { Portfolio6Component } from './components/pages/portfolio6/portfolio6.component';
+import { WebFormComponent } from './components/pages/web-form/web-form.component';
 
 
 const routes: Routes = [
@@ -61,7 +62,7 @@ const routes: Routes = [
 {path: 'salesforce-integration', component: Portfolio4Component},
 {path: 'salesforce-appexchange', component: Portfolio5Component},
 {path: 'salesforce-consulting', component: Portfolio6Component},
-
+{path: 'web-form', component: WebFormComponent},
 
 
 ];
