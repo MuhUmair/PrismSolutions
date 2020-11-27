@@ -3257,7 +3257,7 @@ header.header-three .header-nav::before {
 .wcu-section .wcu-video .video-poster-two, .wcu-section .wcu-video::after {
   position: absolute;
   bottom: 0;
-  right: 30px;
+  right: 310px;
   width: 305px;
   height: 305px;
   border-radius: 50%;
@@ -9156,4 +9156,138 @@ footer.grey-bg-footer .footer-copyright .back-to-top:hover {
 
 .flex-display{
   display:flex;
+}
+
+.about-video .video-poster-three,
+.about-video .video-poster-one,
+.about-video .video-poster-three::before {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 470px;
+  height: 565px;
+  background-position: center;
+  background-size: cover;
+  background-color: #14212b;
+  z-index: 1;
+}
+
+@media (max-width: 575px) {
+  .about-video .video-poster-three,
+  .about-video .video-poster-one,
+  .about-video .video-poster-three::before {
+    width: 320px;
+    height: 380px;
+  }
+}
+
+.about-video .video-poster-three {
+  left: auto;
+  right: 0;
+  top: auto;
+  bottom: 0;
+  height: 500px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+@media (max-width: 575px) {
+  .about-video .video-poster-three {
+    height: 400px;
+  }
+}
+
+.about-video .video-poster-three::before {
+  content: '';
+  left: auto;
+  right: 0;
+  top: auto;
+  bottom: 0;
+  height: 500px;
+  opacity: 0.7;
+  z-index: -1;
+}
+
+@media (max-width: 575px) {
+  .about-video .video-poster-three::before {
+    height: 400px;
+  }
+}
+
+.about-video .video-poster-three .video-play-icon {
+  font-size: 22px;
+  height: 100px;
+  width: 100px;
+  text-align: center;
+  line-height: 100px;
+  background-color: #fff;
+  color: #ff4a17;
+  border-radius: 50%;
+}
+
+.about-video .video-poster-three .video-play-icon:hover {
+  background-color: #14212b;
+  color: #fff;
+}
+
+.wcu-section .wcu-video .video-poster-three, .wcu-section .wcu-video::after {
+  position: absolute;
+  bottom: 0;
+  right: 0px;
+  width: 305px;
+  height: 305px;
+  border-radius: 50%;
+  border: 20px solid #fff;
+}
+
+@media (max-width: 1199px) {
+  .wcu-section .wcu-video .video-poster-three, .wcu-section .wcu-video::after {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media (max-width: 991px) {
+  .wcu-section .wcu-video .video-poster-three, .wcu-section .wcu-video::after {
+    width: 220px;
+    height: 220px;
+    border-width: 10px;
+    right: 10px;
+  }
+}
+
+@media (max-width: 399px) {
+  .wcu-section .wcu-video .video-poster-three, .wcu-section .wcu-video::after {
+    width: 200px;
+    height: 200px;
+    border-width: 5px;
+    right: 0;
+  }
+}
+
+
+.wcu-section .wcu-video .video-poster-three {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wcu-section .wcu-video .video-poster-three a {
+  font-size: 30px;
+  color: #ff4a17;
+  position: relative;
+  z-index: 2;
 }
