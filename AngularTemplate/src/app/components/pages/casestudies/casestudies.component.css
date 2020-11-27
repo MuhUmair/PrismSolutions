@@ -12,7 +12,13 @@
 .project-details li {
     list-style-position: inside;
     list-style-type: disc;
-    
+    font-size:20px;
     margin-left:31px;
+}
+
+.project-details p {
+   
+    font-size:20px;
+    
 }
 
