@@ -30,7 +30,8 @@ import { Portfolio4Component } from './components/pages/portfolio4/portfolio4.co
 import { Portfolio5Component } from './components/pages/portfolio5/portfolio5.component';
 import { Portfolio6Component } from './components/pages/portfolio6/portfolio6.component';
 import { WebFormComponent } from './components/pages/web-form/web-form.component';
-
+import { CasestudyComponent } from './components/pages/casestudy/casestudy.component';
+import { CaseStudy3Component } from './components/pages/case-study3/case-study3.component';
 
 const routes: Routes = [
 
@@ -63,6 +64,8 @@ const routes: Routes = [
 {path: 'salesforce-appexchange', component: Portfolio5Component},
 {path: 'salesforce-consulting', component: Portfolio6Component},
 {path: 'web-form', component: WebFormComponent},
+{path: 'case-study2', component: CasestudyComponent},
+{path: 'case-study3', component: CaseStudy3Component},
 
 
 ];

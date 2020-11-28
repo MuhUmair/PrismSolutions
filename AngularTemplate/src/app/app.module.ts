@@ -44,6 +44,7 @@ import { Portfolio7Component } from './components/pages/portfolio7/portfolio7.co
 import { Portfolio8Component } from './components/pages/portfolio8/portfolio8.component';
 import { CasestudyComponent } from './components/pages/casestudy/casestudy.component';
 import { WebFormComponent } from './components/pages/web-form/web-form.component';
+import { CaseStudy3Component } from './components/pages/case-study3/case-study3.component';
 
 
 @NgModule({
@@ -92,6 +93,7 @@ import { WebFormComponent } from './components/pages/web-form/web-form.component
     Portfolio8Component,
     CasestudyComponent,
     WebFormComponent,
+    CaseStudy3Component,
     
   ],
   imports: [
