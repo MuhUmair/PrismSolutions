@@ -32,6 +32,7 @@ import { Portfolio6Component } from './components/pages/portfolio6/portfolio6.co
 import { WebFormComponent } from './components/pages/web-form/web-form.component';
 import { CasestudyComponent } from './components/pages/casestudy/casestudy.component';
 import { CaseStudy3Component } from './components/pages/case-study3/case-study3.component';
+import { ThankYouComponent } from './components/pages/thank-you/thank-you.component';
 
 const routes: Routes = [
 
@@ -66,6 +67,7 @@ const routes: Routes = [
 {path: 'web-form', component: WebFormComponent},
 {path: 'case-study2', component: CasestudyComponent},
 {path: 'case-study3', component: CaseStudy3Component},
+{path: 'greeting', component: ThankYouComponent}, 
 
 
 ];
